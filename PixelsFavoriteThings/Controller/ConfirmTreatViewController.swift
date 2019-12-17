@@ -11,10 +11,16 @@ import UIKit
 class ConfirmTreatViewController: UIViewController {
 
     @IBOutlet weak var happyMeterSlider: UISlider!
-    
+    var rating: Int?
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //change slider based on rating from AddTreatVC
+        if let rating = rating {
+            if rating > 0 && rating <= 5 {
+                happyMeterSlider.value = Float(rating) * 20
+            }            
+        }
     }
     
     @IBAction func sliderValueChanged(_ sender: UISlider) {

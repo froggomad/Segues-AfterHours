@@ -75,14 +75,22 @@
 				7742C46B23A00BA300A84CE0 /* Info.plist */,
 				7742C46323A00BA200A84CE0 /* Main.storyboard */,
 				7742C47323A0108100A84CE0 /* Treat.swift */,
-				7742C47123A00C4B00A84CE0 /* TreatTableViewController.swift */,
-				7742C47523A0142C00A84CE0 /* AddTreatViewController.swift */,
-				7742C47723A0143D00A84CE0 /* TreatDetailViewController.swift */,
-				7742C47B23A049D900A84CE0 /* ConfirmTreatViewController.swift */,
-				77397D0523A05643008C0F60 /* ShowDetailViewController.swift */,
-				77397D0723A0564F008C0F60 /* PresentPopoverViewController.swift */,
+				B93770EA23A0867300F088B0 /* Controller */,
 			);
 			path = PixelsFavoriteThings;
+			sourceTree = "<group>";
+		};
+		B93770EA23A0867300F088B0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7742C47523A0142C00A84CE0 /* AddTreatViewController.swift */,
+				7742C47B23A049D900A84CE0 /* ConfirmTreatViewController.swift */,
+				77397D0723A0564F008C0F60 /* PresentPopoverViewController.swift */,
+				77397D0523A05643008C0F60 /* ShowDetailViewController.swift */,
+				7742C47723A0143D00A84CE0 /* TreatDetailViewController.swift */,
+				7742C47123A00C4B00A84CE0 /* TreatTableViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
